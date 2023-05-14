@@ -1,0 +1,19 @@
+.header__icons {
+  display: flex;
+  gap: 2rem;
+}
+
+
+.header__icon{
+  width: 50px;
+  height: 50px;
+  stroke: none;
+  fill: black;
+  cursor: pointer;
+ 
+}
+.header__links{
+    display: flex;
+    align-items: flex-end;
+
+  }

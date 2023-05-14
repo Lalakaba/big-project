@@ -1,0 +1,13 @@
+.posts{
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+@media (max-width: 580px) {
+  .posts {
+      display: grid;
+      grid-template-columns: repeat(1, 2fr);
+  }
+}
